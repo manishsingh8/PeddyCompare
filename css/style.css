@@ -3,14 +3,14 @@
   General CSS
   ========================================== 
   */
-  
-  /* NavigationBar Start */
-  .con_f1 {
-    padding: 0 170px;
-    box-shadow: 0px 4px 6px rgba(97, 94, 94, 0.3);
-    border: none;
-  }
-  .header_top {
+
+/* NavigationBar Start */
+.con_f1 {
+  padding: 0 170px;
+  box-shadow: 0px 4px 6px rgba(97, 94, 94, 0.3);
+  border: none;
+}
+.header_top {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,39 +51,38 @@
   border-radius: 40%;
   background-color: white;
   color: green;
-  border:1px solid green;
+  border: 1px solid green;
 }
 
 /* Navigation End */
 
 h1 {
-    font-size: 48.83px;
-    font-weight: 700;
-    line-height: 56px;
+  font-size: 48.83px;
+  font-weight: 700;
+  line-height: 56px;
 }
-h3{
-    color:#1C1C1C;
-    font-weight:700 ;
-    font-size: 20;
-    line-height: 24px;
+h3 {
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 20;
+  line-height: 24px;
 }
-h5{
-    color:#1C1C1C;
-    font-weight:700 ;
-    font-size: 31.25;
-    line-height: 24px;
-
+h5 {
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 31.25;
+  line-height: 24px;
 }
-p{
-    font-weight: 400;
-    color:#6C6C6C;
+p {
+  font-weight: 400;
+  color: #6c6c6c;
 }
-
 
 /* Body Start */
 
 body {
   font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Section one Start */
@@ -100,23 +99,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
 }
-.div_con1 > p{
-      font-size: 20px;
-      line-height: 32px;
+.div_con1 > p {
+  font-size: 20px;
+  line-height: 32px;
 }
-.div_con1 .btn-1{
-    border:none;
-    margin-top: 2rem;
-    height:56px;
-    width:153px;
-    background-color: #118657;
-    border-radius: 5px;
-    color:white;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+.div_con1 .btn-1 {
+  border: none;
+  margin-top: 2rem;
+  height: 56px;
+  width: 153px;
+  background-color: #118657;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
 }
 .img-con1 {
   width: 50%;
@@ -135,7 +133,7 @@ body {
   width: 390px;
   position: absolute;
   top: 110px;
-  left:765px;
+  left: 765px;
   border-radius: 8px;
 }
 
@@ -143,89 +141,125 @@ body {
 
 /* Section Two Start */
 
-.con_f2{
-    background-color: #FAFAFA;
+.con_f2 {
+  background-color: #fafafa;
 }
-.con2{
-    padding:5% 0;
+.con2 {
+  padding: 5% 0;
 }
-.con2 .row_1{
-      width:100%;
-      margin: 0;
-      display: flex;
-      justify-content: space-between;
+.con2 .row_1 {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
-.con2 .row_2{
-    width:100%;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+.con2 .row_2 {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
-.con2 .col-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding:1% 0;
-    background-color: white;
-    box-shadow: 0 0 5px 2px rgba(97, 94, 94, 0.3);
-    border-radius: 5px;
+.con2 .col-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1% 0;
+  background-color: white;
+  box-shadow: 0 0 5px 2px rgba(97, 94, 94, 0.3);
+  border-radius: 5px;
+  transition: transform 0.5s ease;
 }
-.con2 .col-2 p{
-   margin-top: 8px;
+.con2 .col-2:hover {
+  transform: scale(1.16);
+  cursor: pointer;
+}
+.con2 .col-2 p {
+  margin-top: 8px;
 }
 
 /* Section Two Ends */
 
 /* Section Three Start */
-    .con3{
-        padding: 5% 0;
-    }
-    .con4{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-    }
-    .con3 p{
-        width:545px;
-    }
+.con3 {
+  padding: 5% 0;
+}
+.con4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.con3 p {
+  width: 545px;
+}
 
+.con5 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+.con5 .hrow {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+  border: none;
+  border-top: 2px solid #118657;
+}
+.con5 div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.con5 > div > .num {
+  color: #ffac31;
+  font-weight: 400;
+  font-size: 48.83px;
+  padding: 0px;
+  margin: 0px;
+}
+.con5 > div > .para {
+  width: 216px;
+  font-size: 16px;
+}
 
-    .con5{
-        display: flex;
-        justify-content: space-between;
-        padding: 5% 0;
-    }
-    .con5 .hrow{
-        width:100%;
-        margin: 0;
-        margin-bottom: 10px;
-        border: none;
-        border-top: 2px solid #118657;
-    }
-    .con5 div{
-        width:20%;
-        display: flex;
-        flex-direction: column;
-    }
-    .con5 >div> .num{
-         color:#FFAC31;
-         font-weight: 400;
-         font-size: 48.83px;
-         padding: 0px;
-         margin:0px;
-
-    }
-    .con5 >div> .para{
-        width:216px;
-        font-size: 16px;
-    }
-
-    .con6{
-        background-color: #e0e6ff;
-    }
-
+.con6 {
+  background-color: #e0e6ff;
+  height: 536px;
+  width:100%;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.con6 > .div1 {
+  height: 100%;
+  width: 40%;
+  position: relative;
+  padding:0px;
+  margin: 0px;
+}
+.con6 > .img2 {
+  width: 60%;
+}
+.con6 > .div1 > .div2 {
+  margin:0px;
+  width:100%;
+  position: absolute;
+  top: 40%; 
+  left: 55%; 
+  transform: translate(-50%, -50%);
+  color: #118657;
+  border-radius: 10px;
+  z-index: 1;
+}
+.con6 > .div1 > .div2 >p{
+    color:#118657;
+}
+.con6 > .div1 > .div2 span>p{
+    color:#118657;
+    line-height: 2.5;
+}
 /* Section Three Ends */
