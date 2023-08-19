@@ -263,3 +263,23 @@ body {
     line-height: 2.5;
 }
 /* Section Three Ends */
+
+
+
+/* section four start */
+
+.con7{
+    display: flex;
+    width:100%;
+    padding:5% 0;
+    border:1px solid blue;
+    justify-content: space-between;
+}
+.con7_text{
+  width:30%;
+}
+
+.con8{
+  border:1px solid red;
+}
+/* section four ends */
