@@ -77,7 +77,9 @@ p {
   font-weight: 400;
   color: #6c6c6c;
 }
-
+.mt50 {
+  margin-top: 50px;
+}
 /* Body Start */
 
 body {
@@ -272,14 +274,27 @@ body {
     display: flex;
     width:100%;
     padding:5% 0;
-    border:1px solid blue;
     justify-content: space-between;
+    line-height: 24px;
 }
 .con7_text{
   width:30%;
+  padding-left: 40px;
 }
-
-.con8{
-  border:1px solid red;
+.con7_text > h3{
+  line-height: 48px;
+}
+.con7_logo{
+  width:60%;
+}
+.con8 > .row{
+  align-items: center;
+}
+.con8 >.row > div > .logo{
+   transition: transform 0.5s ease;
+   cursor: pointer;
+}
+.con8 >.row >div>.logo:hover{
+  transform:scale(1.4);
 }
 /* section four ends */
