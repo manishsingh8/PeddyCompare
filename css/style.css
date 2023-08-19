@@ -298,3 +298,46 @@ body {
   transform:scale(1.4);
 }
 /* section four ends */
+
+/* Section Five Start */
+
+.con9{
+  padding:5% 0;
+}
+.con9 >div >h4{
+       text-align: center;
+       color:#1c1c1c;
+       font-weight: 700;
+}
+
+.con9 > .con9_comp{
+   display: flex;
+   width:100%;
+   justify-content: space-between;
+}
+.con9 > .con9_comp > div{
+  width:45%;
+  margin-top: 30px;
+  transition: transform .2s ease;
+}
+.con9 > .con9_comp > div >img{
+  object-fit: contain;
+  object-fit: cover;
+  transition: transform .2s ease;
+  width:100%;
+}
+.con9 > .con9_comp > div >img:hover{
+  transform:scale(1.1);
+}
+.con9 > .con9_comp > div > .para1{
+  color: #118657;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 550;
+  font-family:"DM Sans", sans-serif;
+}
+
+.con_f3{
+  height:500px;
+  background-color:  #118657;
+}
