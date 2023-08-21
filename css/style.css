@@ -1,9 +1,14 @@
 /* 
-  ========================================== 
-  General CSS
-  ========================================== 
-  */
+========================================== 
+General CSS
+========================================== 
+*/
 
+body {
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+  border:1px solid red;
+}
 /* NavigationBar Start */
 .con_f1 {
   padding: 0 170px;
@@ -74,6 +79,10 @@ h3 {
   font-size: 20;
   line-height: 24px;
 }
+h4{
+  font-weight: 700;
+  font-size: 31.25;
+}
 h5 {
   font-weight: 700;
   font-size: 31.25;
@@ -122,12 +131,8 @@ p {
 
 
 
-/* Body Start */
 
-body {
-  font-family: "DM Sans", sans-serif;
-  overflow-x: hidden;
-}
+
 
 /* Section one Start */
 
@@ -416,4 +421,51 @@ body {
     color: #D0F3DE;
     font-weight: 400;
     font-size: 16px;
+}
+
+
+/* Container-fluid4 */
+.con_f4{
+      height:360px;
+      background-color:#E7F3EE;
+}
+.con_f4 > .con11{
+  display: flex;
+  justify-content:space-between;
+}
+.con_f4 > .con11 >.inner1{
+  width:40%;
+}
+.con_f4 > .con11 >.inner2{
+  width:55%;
+}
+.item> .para1{
+  color: #118657;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+/* Container12 */
+
+.con12 >.text{
+  width:50%;
+}
+
+.con12  h5{
+  color:#118657;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.con12 ul , li{
+   list-style: none;
+   padding:0px;
+   line-height: 3;
+}
+.con12 ul , li >a{
+  color:#6c6c6c;
+  font-weight: 400;
+  font-size: 16px;
 }
