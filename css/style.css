@@ -7,7 +7,6 @@ General CSS
 body {
   font-family: "DM Sans", sans-serif;
   overflow-x: hidden;
-  border:1px solid red;
 }
 /* NavigationBar Start */
 .con_f1 {
@@ -468,4 +467,71 @@ p {
   color:#6c6c6c;
   font-weight: 400;
   font-size: 16px;
+}
+
+
+
+/* footer start */
+
+.con_f5{
+  height:232px;
+  background-color: #118657;
+}
+
+.con13 > .logo{
+ display: flex;
+ justify-content: space-between;
+}
+.con13 > .logo >img{
+  height:56px;
+  width:10%px;
+}
+.con13 >.logo >ul{
+  display: flex;
+  justify-content: space-between;
+  width:80%;
+}
+.con13 >.logo >ul >li>a{
+  color:#FFFFFF;
+  font-size: 14px;
+}
+.con13 >.social_icon{
+  display: flex;
+  justify-content: space-between;
+}
+.con13 >.social_icon >p {
+  width:50%;
+  color:#FFFFFF;
+  font-size: 12.8px;
+}
+.con13 >.social_icon  > div {
+  width:13%;
+  display: flex;
+  justify-content: space-between;
+}
+.con13 >.social_icon  > div >img{
+  height:24px;
+  width: 24px;
+}
+
+.owl-dots{
+  position:absolute;
+  right: 0px;
+  bottom: 10px;
+  outline:none;
+}
+.owl-dots > button {
+  outline:none;
+  background: #ffac31;
+}
+.owl-dot{
+  outline: none;
+}
+.owl-theme .owl-dots .owl-dot span{
+  background:#E7F3EE;
+  border:2px solid yellow;
+  outline: none;
+}
+.owl-theme .owl-dots .owl-dot span:hover{
+  background: yellow;
 }
